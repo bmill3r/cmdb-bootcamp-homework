@@ -11,8 +11,12 @@ Brendan Miller Lunch_Exercise.txt 9/2/14
 3. 74   #cut -f3 dmel-all-r5.57-removeFASTA.gff | sort | uniq | wc -l
 
 
-4.  	#cut -f3 dmel-all-r5.57-removeFASTA.gff | sort | uniq -c >> lunch_exercise_day1.txt
-5.
+4.  	
+5.  #cut -f3 dmel-all-r5.57-removeFASTA.gff | sort | uniq -c >> lunch_exercise_day1.txt
+
+
+###Next time do: grep -v "^#" file
+###to remove the comments at beginning of file....
 
   15 ###
    1 ##feature-ontology ftp://ftp.flybase.org/releases/FB2014_03/precomputed_files/ontologies/so.obo.zip

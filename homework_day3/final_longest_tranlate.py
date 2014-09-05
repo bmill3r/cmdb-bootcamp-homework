@@ -113,7 +113,7 @@ for i in frameone_seqs:     #for each translated sequence in given list....
     start_positions = []
     orfs = []
     for match in m.finditer(i):                          #iterate through matches with "M"
-        start = match.start()
+        start = match.start()                            #record position of match
         start_positions.append(start)                    #append positions of these "M" matches aka start positions to list
     for orf_start in start_positions:
         rf = i[orf_start:]                               #pull out reading frames starting at each "M"

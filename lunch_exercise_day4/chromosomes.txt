@@ -1,0 +1,15 @@
+>YHet type=chromosome_arm; loc=YHet:1..347038; ID=YHet; dbxref=REFSEQ:NW_001848860,GB:CM000461; MD5=478fbc07ea1b1c03b3d8d04abacf51a5; length=347038; release=r5.57; species=Dmel;
+>2RHet type=chromosome_arm; loc=2RHet:1..3288761; ID=2RHet; dbxref=REFSEQ:NW_001848856,GB:CM000457; MD5=88c0ac39ebe4d9ef5a8f58cd746c9810; length=3288761; release=r5.57; species=Dmel;
+>2LHet type=chromosome_arm; loc=2LHet:1..368872; ID=2LHet; dbxref=REFSEQ:NW_001848855,GB:CM000456; MD5=5217e6a4295a824c31e43d5a9da9038b; length=368872; release=r5.57; species=Dmel;
+>3LHet type=chromosome_arm; loc=3LHet:1..2555491; ID=3LHet; dbxref=REFSEQ:NW_001848857,GB:CM000458; MD5=4902d32327726bf385aa55a75399bdfc; length=2555491; release=r5.57; species=Dmel;
+>3RHet type=chromosome_arm; loc=3RHet:1..2517507; ID=3RHet; dbxref=REFSEQ:NW_001848858,GB:CM000459; MD5=752e488dbea78e592aca03745eb732ea; length=2517507; release=r5.57; species=Dmel;
+>U type=chromosome_arm; loc=U:1..10049037; ID=U;  MD5=4b72bf19979c8466d5b66acca66f1804; length=10049037; release=r5.57; species=Dmel;
+>XHet type=chromosome_arm; loc=XHet:1..204112; ID=XHet; dbxref=REFSEQ:NW_001848859,GB:CM000460; MD5=dcd15c551e34903f6171f53f553b55ee; length=204112; release=r5.57; species=Dmel;
+>dmel_mitochondrion_genome type=chromosome; loc=dmel_mitochondrion_genome:1..19517; ID=dmel_mitochondrion_genome; dbxref=GB:NC_001709; MD5=61af8db53361cd5744f41f773d21c3d4; length=19517; release=r5.57; species=Dmel;
+>2L type=chromosome_arm; loc=2L:1..23011544; ID=2L; dbxref=REFSEQ:NT_033779,GB:AE014134; MD5=bfdfb99d39fa5174dae1e2ecd8a231cd; length=23011544; release=r5.57; species=Dmel;
+>X type=chromosome_arm; loc=X:1..22422827; ID=X; dbxref=REFSEQ:NC_004354,GB:AE014298; MD5=a83251de102926ba52e3e71c72f1d9b0; length=22422827; release=r5.57; species=Dmel;
+>3L type=chromosome_arm; loc=3L:1..24543557; ID=3L; dbxref=REFSEQ:NT_037436,GB:AE014296; MD5=ec7148cae3daabbd2a226eaa6e85d7c2; length=24543557; release=r5.57; species=Dmel;
+>4 type=chromosome_arm; loc=4:1..1351857; ID=4; dbxref=REFSEQ:NC_004353,GB:AE014135; MD5=515edfcc517bc4e39ae5c696cfd44021; length=1351857; release=r5.57; species=Dmel;
+>2R type=chromosome_arm; loc=2R:1..21146708; ID=2R; dbxref=REFSEQ:NT_033778,GB:AE013599; MD5=1589a9447d4dc94c048aa48ea5b8099d; length=21146708; release=r5.57; species=Dmel;
+>3R type=chromosome_arm; loc=3R:1..27905053; ID=3R; dbxref=REFSEQ:NT_033777,GB:AE014297; MD5=6b279651b3b268f11e0dd1d87ded0ccc; length=27905053; release=r5.57; species=Dmel;
+>Uextra type=chromosome_arm; loc=Uextra:1..29004656; ID=Uextra;  MD5=3d47647f1cde286a947d03cc17f0bad3; length=29004656; release=r5.57; species=Dmel;

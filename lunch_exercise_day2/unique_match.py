@@ -8,4 +8,4 @@ for line in f:
         n = n+1
 print n
 
-#"NH:i:1" means only aligned to one location in reference
+# "NH:i:1" means only aligned to one location in reference

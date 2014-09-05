@@ -13,16 +13,7 @@ SRR072911 = "/Users/cmdb/data/results/SRR072911_clout/genes.fpkm_tracking"
 SRR072913 = "/Users/cmdb/data/results/SRR072913_clout/genes.fpkm_tracking"
 SRR072915 = "/Users/cmdb/data/results/SRR072915_clout/genes.fpkm_tracking"
 
-file_list = []
-
-file_list.append(SRR072905)
-file_list.append(SRR072906)
-file_list.append(SRR072907)
-file_list.append(SRR072908)
-file_list.append(SRR072909)
-file_list.append(SRR072911)
-file_list.append(SRR072913)
-file_list.append(SRR072915)
+file_list = [SRR072905, SRR072906, SRR072907, SRR072908, SRR072909, SRR072911, SRR072913, SRR072915]
 
 
 sxl_list=[]

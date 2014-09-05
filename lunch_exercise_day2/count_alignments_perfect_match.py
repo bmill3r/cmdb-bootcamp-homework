@@ -8,4 +8,4 @@ for line in f:
         n = n+1
 print n
 
-#NM:i:0 refers to perfect match to reference
+# "NM:i:0" refers to perfect match to reference

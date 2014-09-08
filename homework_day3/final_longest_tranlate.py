@@ -7,8 +7,8 @@ import sys
 import re
 from fasta import FASTAReader
 
-basecomplement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
 
+#PART 1:
 
 reader = FASTAReader(sys.stdin)
 #print "reader made"
@@ -24,7 +24,17 @@ longest_sequences = sorted_list[:100]
 test_list = longest_sequences[98:]
 #print "test_list made"
 
+
+
+
+
+
+#PART 2
+
 #make list of reverse compliments of sequences (in same order as original list)
+
+basecomplement = {'A': 'T', 'C': 'G', 'G': 'C', 'T': 'A'}
+
 reverse_comp_sequences = []
 for i in test_list:#longest_sequences:
     rev_seq = "".join(i[::-1])
@@ -103,6 +113,10 @@ for i in reverse_comp_sequences:
 
 
 
+
+
+
+#PART 3
 #Finding ORFs using regular expression on translated sequences
 
 met = "M"
@@ -117,9 +131,9 @@ for i in frameone_seqs:     #for each translated sequence in given list....
         start_positions.append(start)                    #append positions of these "M" matches aka start positions to list
     for orf_start in start_positions:
         rf = i[orf_start:]                               #pull out reading frames starting at each "M"
-        orf = rf.split(".", 1)                           #for each rf pulled out, split on "." aka stop codon and take first part
+        orf = rf.split(".", 1)                           #for each rf pulled out, split on first "." found (aka stop codon)
         if len(orf[0]) > 10:                             #check/cutoff for length of a rf (M to .)
-            orf_re = re.compile(orf[0])                  #create regex out of extrcted rf
+            orf_re = re.compile(orf[0])                  #create regex out of extracted orf
             orf_seq = orf_re.search(i)                   #search original translated file for rf
             orf_end = orf_seq.end()                      #find end position of the rf
             orfs.append((orf_start, orf_end, orf[0]))    #store start, end position as well as sequence in tuple and append to list

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-f = open("/Users/cmdb/data/day1/SRR072893_th_out/accepted_hits.sam")
+f = open("/Users/cmdb/data/day1/SRR072893_tophat_out/accepted_hits.sam")
 
 chromosome=[]
 for line in f:

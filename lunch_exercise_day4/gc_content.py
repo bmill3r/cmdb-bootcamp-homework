@@ -5,13 +5,13 @@ import sys
 
 reader = FASTAReader(sys.stdin)
 
-f = open('gc_content.txt', 'w')
+#f = open('gc_content.txt', 'w')
 
-
-gc_list = []
-id_list = []
+gc_dict = {}
+#gc_list = []
+#id_list = []
 for id_sig, sequence in reader:
-    id_list.append(id_sig)
+    #id_list.append(id_sig)
     
     c = sequence.count("C")
     
@@ -22,11 +22,14 @@ for id_sig, sequence in reader:
     #print gc_content
     gc_percent = gc_content/length
     #print gc_percent
-    gc_list.append(gc_percent)
+    #gc_list.append(gc_percent)
+    gc_dict[id_sig] = gc_percent
     
-gc_percentage = zip(id_list, gc_list)
+#gc_percentage = zip(id_list, gc_list)
 
 
-for i in gc_percentage:
-    print i
-    
+#for i in gc_percentage:
+#    f.write(str(i))
+
+#f.close()
+print gc_dict
